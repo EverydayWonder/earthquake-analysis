@@ -14,7 +14,3 @@ By default, the script uses global coordinates:
 ```python
 'world': {'type': 'box', 'coords': [-90.0, 90.0, -180.0, 180.0]}
 To analyze a different region, modify the coordinates in the regions dictionary.
-
-## Requirements
-obspy
-matplotlib
