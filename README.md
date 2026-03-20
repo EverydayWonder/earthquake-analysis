@@ -9,8 +9,7 @@ Python script for analyzing yearly earthquake counts using FDSN catalogs (USGS, 
 - Plot visualization
 
 ## Usage
-By default, the script uses global coordinates:
+By default, the script uses global coordinates. To analyze a different region, modify the coordinates in the regions dictionary.
 
 ```python
 'world': {'type': 'box', 'coords': [-90.0, 90.0, -180.0, 180.0]}
-To analyze a different region, modify the coordinates in the regions dictionary.
