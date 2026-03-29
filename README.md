@@ -9,10 +9,10 @@ Python script for analyzing yearly earthquake counts using FDSN catalogs (USGS, 
 - Plot visualization
 
 ## Instalation
-Clone this repository
-Create virtual environment: python -m venv .venv
-Activate virtual environment: source .venv/bin/activate
-Install requirements: python -m pip install -r requirements.txt
+1. Clone this repository
+2. Create virtual environment: ```python -m venv .venv```
+3. Activate virtual environment: ```source .venv/bin/activate```
+4. Install requirements: ```python -m pip install -r requirements.txt ```
 
 ## Disclaimer
 This repository provides tools for downloading and visualizing earthquake data from external sources (FDSN catalogs such as USGS, ISC, EMSC). The author does not guarantee the accuracy, completeness, or reliability of the data and is not responsible for any conclusions drawn from their use. Users are responsible for verifying data and interpreting results.
@@ -24,8 +24,9 @@ By default, the script uses global coordinates. To analyze a different region, m
 'world': {'type': 'box', 'coords': [-90.0, 90.0, -180.0, 180.0]}
 # parameters
 params = {
-    'catalog_keys': usgs,  # select catalog
-    'place_names': world,  # select area
+    'catalog_keys': 'usgs',  # select catalog
+    'place_names': 'world',  # select area
     'minmag': 4,           # minimum magnitude
     'years': range(1980, 2026)
 }
+```
