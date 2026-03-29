@@ -24,8 +24,8 @@ By default, the script uses global coordinates. To analyze a different region, m
 'world': {'type': 'box', 'coords': [-90.0, 90.0, -180.0, 180.0]}
 # parameters
 params = {
-    'catalog_keys': usgs,  # select catalog
-    'place_names': world,  # select area
+    'catalog_keys': 'usgs',  # select catalog
+    'place_names': 'world',  # select area
     'minmag': 4,           # minimum magnitude
     'years': range(1980, 2026)
 }
