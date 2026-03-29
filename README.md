@@ -10,18 +10,9 @@ Python script for analyzing yearly earthquake counts using FDSN catalogs (USGS, 
 
 ## Instalation
 1. Clone this repository
-2. Create virtual environment: 
-```cmd
-python -m venv .venv
-```
-3. Activate virtual environment:
-```cmd
-source .venv/bin/activate
-```
-4. Install requirements:
-```cmd
-python -m pip install -r requirements.txt
-```
+2. Create virtual environment: ```python -m venv .venv```
+3. Activate virtual environment: ```source .venv/bin/activate```
+4. Install requirements: ```python -m pip install -r requirements.txt ```
 
 ## Disclaimer
 This repository provides tools for downloading and visualizing earthquake data from external sources (FDSN catalogs such as USGS, ISC, EMSC). The author does not guarantee the accuracy, completeness, or reliability of the data and is not responsible for any conclusions drawn from their use. Users are responsible for verifying data and interpreting results.
